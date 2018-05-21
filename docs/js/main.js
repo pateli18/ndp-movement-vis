@@ -60,9 +60,9 @@ function runAnimation() {
     mapboxgl.accessToken = 'pk.eyJ1IjoicGF0ZWxpMTgiLCJhIjoiY2o5cnNsc2dxMzFwNTJ3bGdrZzdnM3YzcSJ9.aC2VGgP88galycKJ--ApbA';
     map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/pateli18/cjheyb0831fkt2ql05lkilxc1',
+        style: 'mapbox://styles/mapbox/streets-v9',
         center: [-70.099027,41.316193],
-        zoom: 11.5
+        zoom: 11
     });
 
     var canvas = map.getCanvasContainer();
