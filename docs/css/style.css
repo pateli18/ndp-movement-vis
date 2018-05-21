@@ -24,8 +24,8 @@ svg {
 }
 
 .driver {
-    fill: rgb(205, 103, 55);
-    r: 4;
+    fill: blue;
+    r: 10;
     opacity: 0.4;
 }
 
