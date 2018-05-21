@@ -1,0 +1,36 @@
+
+/* YOUR CSS STYLES */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:100%;
+}
+
+svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.polyline {
+    fill: none;
+}
+
+.driver {
+    fill: rgb(205, 103, 55);
+    r: 4;
+    opacity: 0.4;
+}
+
+.clock {
+    font-size: 50px;
+    font-weight: bold;
+    text-anchor: end;
+}
